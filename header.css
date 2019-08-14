@@ -1,0 +1,30 @@
+header{
+	background-color: red;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__nav{
+	display: flex;
+}
+
+.menu-btn{
+	/*display: none;*/
+}
+
+.menu-icon{
+	cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 5px 20px;
+    position: relative;
+    user-select: none;
+    content: url("img/menu-icon.png");
+}
+
+.menu{
+	display: none;
+}
+.menu-btn:checked ~ .menu {
+    display: block;
+}
