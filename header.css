@@ -1,5 +1,5 @@
 header{
-	background-color: red;
+	/*background-color: red;*/
 	display: flex;
 	justify-content: space-between;
 }
@@ -9,7 +9,7 @@ header{
 }
 
 .menu-btn{
-	/*display: none;*/
+	display: none;
 }
 
 .menu-icon{
@@ -19,12 +19,42 @@ header{
     padding: 5px 20px;
     position: relative;
     user-select: none;
-    content: url("img/menu-icon.png");
+    content: url("img/menu-icon.svg");
 }
 
-.menu{
-	display: none;
-}
 .menu-btn:checked ~ .menu {
     display: block;
+}
+
+.menu {
+	display: none;
+	list-style: none;
+	position: absolute;
+	top: 83px;
+	left: calc(50% - 143px);
+	text-transform: uppercase;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu li a{
+	text-decoration: none;
+	font-size: 11px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(69, 80, 94);
+	text-transform: uppercase;
+	line-height: 2.182;
+	text-align: center;
+}
+
+
+.header__search input{
+	border: none;
+	font-size: 11px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(69, 80, 94);
+	text-transform: uppercase;
+	line-height: 2.182;
 }
