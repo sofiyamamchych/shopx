@@ -1,5 +1,20 @@
 .wrap{
-	width: 60.25%;
-	margin-left: 20%;
-	margin-right: 19.75%;
+	width: 100%;
+}
+
+@media(min-width: 640px){
+	.wrap{
+		width: 60.25%;
+		margin-left: 20%;
+		margin-right: 19.75%;
+	}
+
+}
+@media(min-width: 800px){
+	.wrap{
+		width: 60.25%;
+		margin-left: 20%;
+		margin-right: 19.75%;
+	}
+
 }

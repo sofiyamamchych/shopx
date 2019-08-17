@@ -1,13 +1,13 @@
 header{
-	/*background-color: red;*/
-	display: flex;
-	justify-content: space-between;
-	padding-top: 45px;
+	height: 130px;
 }
 
 .header__nav{
 	display: flex;
-	margin-top: 11px;	
+	margin-top: 11px;
+	position: absolute;
+	top: 58px;
+	right: 29px;		
 }
 
 .menu-btn{
@@ -32,8 +32,8 @@ header{
 	display: none;
 	list-style: none;
 	position: absolute;
-	top: 162px;
-	left: calc(50% - 267px);
+	top: 42px;
+	left: calc(50% - 460px);
 	text-transform: uppercase;
 }
 
@@ -90,14 +90,9 @@ header{
 	width: 22px;	
 }
 
-.header__logo{
-	margin-right: 7.8%;
-	margin-top: -2px;
-}
-
 .headernav__cart {
-	margin-left: 20px;
-	margin-right: 10px;
+	margin-left: 4px;
+	margin-right: 0px;
 	margin-top: 2px;
 }
 
@@ -112,5 +107,40 @@ header{
 	font-size: 11px;
 	font-family: 'Roboto', sans-serif;
 	padding: 2px 5px 2px 5px;
+	/*cursor: pointer;*/
 }
 
+@media(min-width: 640px){
+	header{
+		padding-top: 45px;
+		display: flex;
+		justify-content: center;
+		height: 155px;
+	}
+
+	.header__logo{
+		margin-right: 7.8%;
+		margin-top: -2px;
+	}
+
+	.header__nav{
+		position: unset;
+	}
+
+	.headernav__cart {
+		margin-left: 20px;
+		margin-right: 10px;
+	}
+
+	.menu {
+		top: 162px;
+		left: calc(50% - 267px);
+	}
+}
+
+@media(min-width: 800px){
+	header{
+		justify-content: space-between;
+	}
+
+}
