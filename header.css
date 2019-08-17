@@ -1,5 +1,5 @@
 header{
-	height: 130px;
+	height: 140px;
 }
 
 .header__nav{
@@ -33,7 +33,7 @@ header{
 	list-style: none;
 	position: absolute;
 	top: 42px;
-	left: calc(50% - 460px);
+	left: calc(50% - 252px);
 	text-transform: uppercase;
 }
 
@@ -129,12 +129,18 @@ header{
 
 	.headernav__cart {
 		margin-left: 20px;
-		margin-right: 10px;
+		margin-right: 20px;
 	}
 
 	.menu {
 		top: 162px;
 		left: calc(50% - 267px);
+	}
+
+
+	.headernav__cart::after {
+		top: -38px;
+		left: 16px;
 	}
 }
 
@@ -143,4 +149,15 @@ header{
 		justify-content: space-between;
 	}
 
+}
+
+@media(min-width: 915px){
+	.headernav__cart::after {
+		top: -20px;
+		left: -20px;
+	}
+
+	.headernav__cart {
+		margin-right: 10px;
+	}
 }
