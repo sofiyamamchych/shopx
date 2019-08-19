@@ -1,0 +1,72 @@
+.hero__carousel{
+	width: 100%;	
+	margin-top: 100px;	
+}
+
+
+.slick-dots {
+	top: 0;
+	transform: rotate(90deg);
+	/*left: 40%;*/
+}
+
+.hero__carousel__page{
+	height: 300px;
+	padding: 30px;
+}
+
+.hero__carousel__page1{
+	background-color: #ade1c5;
+}
+
+.hero__carousel__page2{
+	background-color: #e7a8c6;
+}
+
+.hero__carousel__page3{
+	background-color: #1d1e24;
+
+}
+
+.hero__artfont{
+	font-size: 73px;
+	font-family: 'Alex Brush', cursive;
+	color: rgb(0, 0, 0);
+}
+
+.hero__h3 {
+	font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.hero__h1{
+	font-size: 72px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.hero__btn {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(0, 0, 0);
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+
+@media(min-width: 640px){
+	.slick-dots {
+		left: 16%;
+	}
+}
+
+
+
+@media(min-width: 800px){
+	.slick-dots {
+		left: 30%;
+	}
+}
