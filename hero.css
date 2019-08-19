@@ -6,7 +6,7 @@
 
 .slick-dots {
 	top: 0;
-	transform: rotate(90deg);
+	/*transform: rotate(90deg);*/
 	/*left: 40%;*/
 }
 
@@ -59,7 +59,7 @@
 
 @media(min-width: 640px){
 	.slick-dots {
-		left: 16%;
+		/*left: 16%;*/
 	}
 }
 
@@ -67,6 +67,6 @@
 
 @media(min-width: 800px){
 	.slick-dots {
-		left: 30%;
+		/*left: 30%;*/
 	}
 }

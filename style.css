@@ -2,7 +2,7 @@
 	width: 100%;
 }
 
-.hero__carousel__page a{
+.hero__carousel__page a, .header__nav a{
 	text-decoration: none;
 }
 
