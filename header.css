@@ -24,10 +24,6 @@ header{
     content: url("img/menu-icon.svg");
 }
 
-.menu-btn:checked ~ .menu {
-    display: block;
-}
-
 .menu {
 	display: none;
 	list-style: none;
@@ -35,7 +31,24 @@ header{
 	top: 42px;
 	left: calc(50% - 252px);
 	text-transform: uppercase;
+    background-color: white;
+    animation-name: menu-animation;
+    animation-duration: 1s;
+    padding-left: 0;
+    margin-left: 40px;	
+    
+
 }
+
+.menu-btn:checked ~ .menu {
+    display: block;
+}
+
+@keyframes menu-animation {
+  from {background-color: #c8e9dc;}
+  to {background-color: white;}
+}
+
 
 .menu li{
 	display: inline-block;
