@@ -6,9 +6,38 @@
 
 .slick-dots {
 	top: 0;
-	/*transform: rotate(90deg);*/
-	/*left: 40%;*/
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
 }
+
+#slick-slide-control00::before{
+	width: 10px;
+	height: 10px;
+	content: '01';	
+	font-size: 12px;		
+}
+
+
+
+#slick-slide-control01::before{
+	width: 10px;
+	height: 10px;
+	content: '02';	
+	font-size: 12px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;	
+	padding-bottom: 10px;	
+}
+
+#slick-slide-control02::before{
+	width: 10px;
+	height: 10px;
+	content: '03';	
+	font-size: 12px;		
+}
+
 
 .hero__carousel__page{
 	height: 300px;
