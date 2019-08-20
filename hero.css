@@ -1,6 +1,6 @@
 .hero__carousel{
 	width: 100%;	
-	margin-top: 100px;	
+	margin-top: 97px;	
 }
 
 
@@ -10,51 +10,73 @@
 	display: flex;
 	flex-direction: column;
 	align-items: end;
+	justify-content: space-between;
+	height: 133px;
+	margin-top: 50px;
+
 }
 
 .slick-dots:before{
 	content: '';
 	height: 1px;
-	width: 20px;
+	width: 89px;
 	border-top: 1px solid #9fcfb4;
 	position: relative;
-	top: 75px;
+	top: 54px;
 }
 .slick-dots::after {
 	content: '';
 	height: 1px;
-	width: 58px;
+	width: 50px;
 	border-top: 1px solid #9fcfb4;
 	position: relative;
-	top: -20px;
+	top: -47px;
 }
 
 #slick-slide-control00::before{
 /*	width: 10px;
 	height: 10px;*/
 	content: '01';	
-	font-size: 26px;
-
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	color: invert(rgb(35, 46, 40));
+    text-transform: uppercase;
 }
 
+
+#slick-slide-control01{
+	/*margin-top: 25px;*/
+}
 
 #slick-slide-control01::before{
 /*	width: 10px;
 	height: 10px;*/
 	content: '02';	
-	font-size: 26px;
-	padding-top: 25px;
+	font-size: 16px;
+	/*margin-top: 25px;*/
+	font-family: 'Titillium Web', sans-serif;
+	color: invert(rgb(35, 46, 40));
+    text-transform: uppercase;
+}
+
+#slick-slide-control02 {
+	/*margin-top: 50px;	*/
 }
 
 #slick-slide-control02::before{
 /*	width: 10px;
 	height: 10px;*/
 	content: '03';	
-	font-size: 26px;
-	margin-top: 50px
+	font-size: 16px;
+	/*margin-top: 50px;*/
+	font-family: 'Titillium Web', sans-serif;
+	color: invert(rgb(35, 46, 40));
+    text-transform: uppercase;
 }
 
-
+.slick-dots li.slick-active button::before{
+	color: white;
+}
 
 .hero__carousel__page{
 	height: 300px;
@@ -70,7 +92,7 @@
 }
 
 .hero__carousel__page3{
-	background-color: #1d1e24;
+	background-color: #e0d858;
 
 }
 
