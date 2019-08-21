@@ -50,7 +50,7 @@
 }
 
 .hero__carousel__page{
-	min-height: 300px;
+	min-height: 250px;
 	padding: 91px 0 0 0;
 }
 
@@ -64,6 +64,10 @@
 
 .hero__carousel__page3{
 	background-color: #e0d858;
+}
+
+.hero__carousel__pagetext__promodescription{
+	padding-bottom: 12px;
 }
 
 .hero__artfont{
@@ -82,7 +86,7 @@
 }
 
 .hero__h1{
-	font-size: 36px;
+	font-size: 28px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
@@ -104,7 +108,7 @@
 }
 
 .hero__carousel__pagetext{
-	/*margin-left: calc(50% - 10px);*/
+	margin-left: calc(50% - 136px);
 	margin-top: 13px;
 
 }
@@ -125,7 +129,7 @@
 		text-align: right;
 		display: flex;
 		flex-direction: column;
-		align-items: end;
+		align-items: flex-end;
 		justify-content: space-between;
 		height: 133px;
 		margin-top: 105px;
@@ -137,6 +141,10 @@
 
 
 @media(min-width: 800px){
+	.hero__carousel__pagetext__promodescription{
+		padding-bottom: 0px;
+	}	
+
 	.hero__carousel__pagetext{
 		margin-left: calc(50% - 360px);
 		margin-top: 13px;
