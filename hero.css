@@ -5,15 +5,7 @@
 
 
 .slick-dots {
-	top: 0;
-	text-align: right;
-	display: flex;
-	flex-direction: column;
-	align-items: end;
-	justify-content: space-between;
-	height: 133px;
-	margin-top: 120px;
-
+	display: none;
 }
 
 .slick-dots:before{
@@ -43,32 +35,17 @@
     text-transform: uppercase;
 }
 
-
-#slick-slide-control01{
-	/*margin-top: 25px;*/
-}
-
 #slick-slide-control01::before{
-/*	width: 10px;
-	height: 10px;*/
 	content: '02';	
 	font-size: 16px;
-	/*margin-top: 25px;*/
 	font-family: 'Titillium Web', sans-serif;
 	color: invert(rgb(35, 46, 40));
     text-transform: uppercase;
 }
 
-#slick-slide-control02 {
-	/*margin-top: 50px;	*/
-}
-
 #slick-slide-control02::before{
-/*	width: 10px;
-	height: 10px;*/
 	content: '03';	
 	font-size: 16px;
-	/*margin-top: 50px;*/
 	font-family: 'Titillium Web', sans-serif;
 	color: invert(rgb(35, 46, 40));
     text-transform: uppercase;
@@ -79,8 +56,8 @@
 }
 
 .hero__carousel__page{
-	height: 300px;
-	padding:168px 0 111px 0;
+	min-height: 300px;
+	padding: 91px 0 0 0;
 }
 
 .hero__carousel__page1{
@@ -93,18 +70,17 @@
 
 .hero__carousel__page3{
 	background-color: #e0d858;
-
 }
 
 .hero__artfont{
-	font-size: 73px;
+	font-size: 52px;
 	font-family: 'Alex Brush', cursive;
 	color: rgb(0, 0, 0);
 	margin-right: 14px;
 }
 
 .hero__h3 {
-	font-size: 24px;
+	font-size: 20px;
     font-family: 'Roboto', sans-serif;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
@@ -112,7 +88,7 @@
 }
 
 .hero__h1{
-	font-size: 72px;
+	font-size: 36px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
@@ -134,7 +110,7 @@
 }
 
 .hero__carousel__pagetext{
-	margin-left: calc(50% - 360px);
+	/*margin-left: calc(50% - 10px);*/
 	margin-top: 13px;
 
 }
@@ -144,20 +120,58 @@
 	display: flex;
 }
 .hero__pagetext__price{
-	margin-top: 28px;
+	margin-top: 13px;
 	letter-spacing: 0.3px;
+	font-size: 16px;
 }
 
 @media(min-width: 640px){
 	.slick-dots {
-		/*left: 16%;*/
+		top: 0;
+		text-align: right;
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+		justify-content: space-between;
+		height: 133px;
+		margin-top: 105px;
+		margin-left: -22px;
 	}
+
 }
 
 
 
 @media(min-width: 800px){
-	.slick-dots {
-		/*left: 30%;*/
+	.hero__carousel__pagetext{
+		margin-left: calc(50% - 360px);
+		margin-top: 13px;
 	}
+
+	.hero__h1{
+		font-size: 72px;
+    }
+
+    .hero__pagetext__price{
+    	font-size: 24px;
+    	margin-top: 28px;
+    }
+
+    .hero__artfont{
+		font-size: 73px;
+	}
+	.hero__h3 {
+		font-size: 24px;
+	}
+
+	.hero__carousel__page{
+		padding:168px 0 111px 0;
+	}
+
+	.slick-dots {
+		margin-top: 215px;
+	}
+
+
+
 }
