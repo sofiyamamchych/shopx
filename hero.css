@@ -2,12 +2,6 @@
 	width: 100%;	
 	margin-top: 97px;	
 }
-
-
-.slick-dots {
-	display: none;
-}
-
 .slick-dots:before{
 	content: '';
 	height: 1px;

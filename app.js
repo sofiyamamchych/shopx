@@ -3,8 +3,17 @@
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: true,
         autoplay: true,
         autoplaySpeed: 3000,
+        dots: true,
+        responsive: [
+        {
+          breakpoint: 640,
+          settings: {
+            dots: false
+
+          }
+        }
+        ]
     });
   });
