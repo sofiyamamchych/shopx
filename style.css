@@ -6,6 +6,11 @@
 	text-decoration: none;
 }
 
+@keyframes menu-animation {
+	from {background-color: #c8e9dc;}
+	to {background-color: white;}
+}
+
 @media(min-width: 640px){
 	.wrap{
 		width: 60.25%;
