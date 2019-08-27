@@ -6,6 +6,11 @@
 	text-decoration: none;
 }
 
+@font-face {
+  font-family: Geogrotesque;
+  src: url(fonts/Geogrotesque-Regular.otf);
+}
+
 @keyframes menu-animation {
 	from {background-color: #c8e9dc;}
 	to {background-color: white;}
