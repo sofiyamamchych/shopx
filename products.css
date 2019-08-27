@@ -133,11 +133,34 @@
 	height: 140px;
 	/*background-color: #e7a8c6;*/
 	overflow: hidden;
-	background-image: url("img/products/lava-vtase.jpg");
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.products__item__image1{
+	background-image: url("img/products/lava-vtase.jpg");
+}
+
+.products__item__image2{
+	background-image: url("img/products/ceramic-pot.jpg");
+}
+
+.products__item__image3{
+	background-image: url("img/products/dinnerware.jpg");
+}
+
+.products__item__image4{
+	background-image: url("img/products/norm-jars.jpg");
+}
+
+.products__item__image5{
+	background-image: url("img/products/floating-boat.jpg");
+}
+
+.products__item__image6{
+	background-image: url("img/products/ceramic-pot2.jpg");
 }
 
 .products__item__new::before, .products__item__hot::before {
