@@ -227,10 +227,13 @@
 
 .products__item__menu{
 	position: absolute;
-	margin-left: 16px;
-	margin-top: 16px;
+	margin-left: 1.9%;
+	margin-top: 1.4vw;
 }
 
+.products__item__menu__like{
+	margin: 33px 0 17px 0;
+}
 
 @media (min-width: 640px){
 	.products__itemsarea{
