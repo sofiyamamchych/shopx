@@ -131,7 +131,12 @@
 .products__item__image{
 	width: 140px;
 	height: 140px;
-	background-color: #e7a8c6;
+	/*background-color: #e7a8c6;*/
+	overflow: hidden;
+	background-image: url("img/products/lava-vtase.jpg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
