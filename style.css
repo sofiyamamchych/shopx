@@ -2,7 +2,7 @@
 	width: 100%;
 }
 
-.hero__carousel__page a, .header__nav a, .filter-menu li a, .products__item a{
+.hero__carousel__page a, .header__nav a, .filter-menu li a, .products__item a, .featured__info a{
 	text-decoration: none;
 }
 

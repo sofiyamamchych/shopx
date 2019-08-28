@@ -1,16 +1,86 @@
 .featured{
-	background-color: red;
+	/*background-color: red;*/
 	margin-top: 25px;	
 	display: flex;
-	justify-content: center;
 	min-height: 500px;
 }
 
 .featured__product{
 	background-color: green;
+	width: 50%;
 
 }
 
 .featured__info{
-	background-color: yellow;
+	background-color: #8ed1b7;
+	width: 50%;
+	background-image: url("img/featured.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 100% 50px;
+	padding: 16% 8% 3% 6%;
+	box-sizing: border-box;
+
 }
+
+.featured__info__textarea{
+	z-index: 5;
+	margin: -38% 0 0 0;
+	background-color: #8ed1b7;
+}
+
+.featured__info__decoblock {
+	z-index: 1;
+	width: 62%;
+	height: 70%;
+	background-color: #8ed1b7;
+	background-image: url("img/zigzag.png");
+	margin: 15% 0 -23% 58%;
+	/*background-repeat: repeat;*/
+
+}
+
+
+
+
+
+.featured__info__backgroundtext{
+	position: absolute;
+	font-size: 168px;
+  	font-family: 'Roboto', sans-serif;
+ 	color: rgba(0, 0, 0, 0.059);
+ 	z-index: 0;
+}
+
+.featured__info__productname {
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	z-index: 1;
+}
+
+
+.featured__info__productdescr {
+	font-size: 23px;
+	font-family: 'Titillium Web', sans-serif;
+	color: rgb(0, 0, 0);
+	z-index: 1;
+}
+
+.featured__info__descriptiontext {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+
+.featured__info__buybtn{
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	z-index: 1;
+}
+
