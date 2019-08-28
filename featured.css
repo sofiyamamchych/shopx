@@ -1,0 +1,16 @@
+.featured{
+	background-color: red;
+	margin-top: 25px;	
+	display: flex;
+	justify-content: center;
+	min-height: 500px;
+}
+
+.featured__product{
+	background-color: green;
+
+}
+
+.featured__info{
+	background-color: yellow;
+}
