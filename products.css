@@ -97,8 +97,7 @@
 .products__item{
 	height: 510px;
 	margin-top: 40px;
-	margin-bottom: 	
-	box-shadow: -7px 3px 25px 10px #DFDFDF;
+	box-shadow: 15px 3px 31px 15px #F4F4F4;
 }
 
 .products__item__imgarea{
@@ -109,18 +108,19 @@
 
 
 .products__item__buybtn {
-    position: relative;
-    top: 61px;
-    left: -5px;
-    text-align: center;  
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-    border-top: 1px solid #eeeeee;
-	width: 80%;
-	margin-left: 10%;
+	position: relative;
+	top: 38px;
+	padding-top: 23px;
+	left: -4px;
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+	border-top: 1px solid #eeeeee;
+	width: 85%;
+	margin-left: 7.5%;
 }
 
 .products__item__buybtn img{
