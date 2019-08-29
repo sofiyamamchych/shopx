@@ -61,10 +61,12 @@
 
 
 .featured__info__productdescr {
-	font-size: 23px;
+	font-size: 24px;
 	font-family: 'Titillium Web', sans-serif;
 	color: rgb(0, 0, 0);
 	z-index: 1;
+	padding-bottom: 36px;
+	margin-top: -1px;
 }
 
 .featured__info__descriptiontext {
@@ -75,11 +77,13 @@
 }
 
 
-.featured__info__buybtn{
+.featured__info__buybtn {
 	font-size: 12px;
 	font-family: 'Roboto', sans-serif;
 	color: rgb(255, 255, 255);
-	text-decoration: underline;
 	z-index: 1;
+	margin: 35px 0 0 2px;
+	text-transform: uppercase;
+	border-bottom: 1px solid;
+	width: 63px;
 }
-
