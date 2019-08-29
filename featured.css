@@ -24,20 +24,19 @@
 
 .featured__info__textarea{
 	z-index: 5;
-	margin: -32.5% 0px 0 8.6%;
+	margin: -35% 0px 0 8.6%;
 	background-color: #8ed1b7;
 	width: 48%;
 }
 
 .featured__info__decoblock {
 	z-index: 1;
-	width: 62%;
-	height: 70%;
+	width: 66%;
+	height: 54%;
 	background-color: #8ed1b7;
 	background-image: url("img/zigzag.png");
-	margin: 15% 0 -23% 58%;
-	/*background-repeat: repeat;*/
-
+	margin: 33% 0 -24% 34%;
+	/* background-repeat: repeat; */
 }
 
 
