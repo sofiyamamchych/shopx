@@ -2,7 +2,7 @@
 	/*background-color: red;*/
 	margin-top: 25px;	
 	display: flex;
-	min-height: 500px;
+	min-height: 925px;
 }
 
 .featured__product{
@@ -16,17 +16,17 @@
 	width: 50%;
 	background-image: url("img/featured.png");
 	background-repeat: no-repeat;
-	background-size: 80%;
-	background-position: 100% 50px;
-	padding: 16% 8% 3% 6%;
+	background-size: 87.4%;
+	background-position: 100% 27%;
 	box-sizing: border-box;
 
 }
 
 .featured__info__textarea{
 	z-index: 5;
-	margin: -38% 0 0 0;
+	margin: -32.5% 0px 0 8.6%;
 	background-color: #8ed1b7;
+	width: 48%;
 }
 
 .featured__info__decoblock {
