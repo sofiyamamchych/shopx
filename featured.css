@@ -3,18 +3,19 @@
 	margin-top: 25px;	
 	display: flex;
 	min-height: 925px;
+	flex-direction: column;
 }
 
 .featured__product{
 	background-color: green;
-	width: 50%;
+	width: 100%;
 
 }
 
 .featured__info{
 	background-color: #8ed1b7;
-	width: 50%;
-	background-image: url("img/featured.png");
+	width: 100%;
+	/*background-image: url("img/featured.png");*/
 	background-repeat: no-repeat;
 	background-size: 87.4%;
 	background-position: 100% 27%;
@@ -22,31 +23,32 @@
 
 }
 
+/*.featured__info:before{
+	content: "Wood Stand"
+}*/
+
 .featured__info__textarea{
 	z-index: 5;
-	margin: -35% 0px 0 8.6%;
-	background-color: #8ed1b7;
-	width: 48%;
+	margin: 50px 5%;
+	width: 90%;
 }
 
 .featured__info__decoblock {
+	display: none;
 	z-index: 1;
 	width: 66%;
 	height: 54%;
 	background-color: #8ed1b7;
 	background-image: url("img/zigzag.png");
-	margin: 33% 0 -24% 34%;
+	/*margin: 33% 0 -24% 34%;*/
 	/* background-repeat: repeat; */
 }
-
-
-
 
 
 .featured__info__backgroundtext{
 	position: absolute;
 	font-size: 168px;
-  	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
  	color: rgba(0, 0, 0, 0.059);
  	z-index: 0;
 }
@@ -65,8 +67,10 @@
 	font-family: 'Titillium Web', sans-serif;
 	color: rgb(0, 0, 0);
 	z-index: 1;
-	padding-bottom: 36px;
+	margin-bottom: 36px;
 	margin-top: -1px;
+	background-color: #8ed1b7;
+	padding: 0 11px 2px 0px;
 }
 
 .featured__info__descriptiontext {
@@ -74,8 +78,10 @@
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     z-index: 1;
+    background-color: #8ed1b7;
+    padding: 10px 6px 8px 0px;
+    margin-top: 36px;
 }
-
 
 .featured__info__buybtn {
 	font-size: 12px;
@@ -86,4 +92,28 @@
 	text-transform: uppercase;
 	border-bottom: 1px solid;
 	width: 63px;
+}
+
+
+@media(min-width: 800px){
+	.featured{
+		flex-direction: row;
+	}
+
+	.featured__info, .featured__product{
+		width: 50%;	
+	}
+
+	.featured__info__decoblock{
+		/*display: block;*/
+	}
+
+	.featured__info__textarea{
+		margin: 0 0px 0 8.6%;
+		width: 48%;
+	}
+
+	.featured__info {
+		background-image: url("img/featured.png");
+	}
 }
